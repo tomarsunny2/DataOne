@@ -1,0 +1,62 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TransformerAPI",
+		"_postman_id": "76182f25-7b40-0849-0d4b-e646f5b190d0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8088/Transformer/flatten",
+			"request": {
+				"url": "http://localhost:8088/Transformer/flatten",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"fruit\":\"apple\",\r\n  \"animal\":\"zebra\",\r\n  \"city-list\":[]\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8088/Transformer/alpha",
+			"request": {
+				"url": "http://localhost:8088/Transformer/alpha",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"fruit\":\"apple\",\r\n  \"animal\":\"zebra\",\r\n  \"city-list\":[\"sunnyvale\",\"sanjose\"]\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8088/Transformer/status",
+			"request": {
+				"url": "http://localhost:8088/Transformer/status",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

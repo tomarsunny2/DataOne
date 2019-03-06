@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ProductAPI",
+		"_postman_id": "fd575ea8-bcb2-af23-a6d2-c4517914079c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8089/Product/brands",
+			"request": {
+				"url": "http://localhost:8089/Product/brands",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8089/Product/products",
+			"request": {
+				"url": "http://localhost:8089/Product/products",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
